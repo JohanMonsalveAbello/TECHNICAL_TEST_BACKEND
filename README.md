@@ -19,7 +19,7 @@ Incluye autenticación con **JWT**, manejo seguro de contraseñas y configuraci�
 
 ## 📁 Estructura del proyecto
 
-```
+
 app/
 ├── api/
 │   └── auth.py
@@ -36,7 +36,7 @@ docker-compose.yml
 init.sql
 requirements.txt
 README.md
-```bash
+
 ---
 ⚙️ Requisitos previos
 
