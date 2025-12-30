@@ -50,15 +50,18 @@ Antes de empezar, asegúrate de tener instalado:
 
 🚀 Cómo ejecutar el proyecto
 1️⃣ Clonar el repositorio
+```
     git clone https://github.com/JohanMonsalveAbello/TECHNICAL_TEST_BACKEND.git
     cd TECHNICAL_TEST_BACKEND
+```
 
 2️⃣ Levantar la base de datos con Docker 🐘
 
 ⚠️ Asegúrate de que Docker Desktop esté abierto
+```
 
     docker compose up -d
-
+```
 
 Esto hará automáticamente:
 
@@ -73,11 +76,13 @@ Crear tablas e insertar el usuario inicial
 3️⃣ Ejecutar la API 🚀
 
 1-- Instala las dependencias nesesarias para la API
+```
     pip install -r requirements.txt
-
+```
 2-- Ejecuta la api
+```
 uvicorn app.main:app --reload
-
+```
 La API quedará disponible en:
 
 👉 http://127.0.0.1:8000
@@ -95,6 +100,7 @@ FastAPI genera documentación automáticamente:
 🔐 Usuario de prueba
 
 El proyecto incluye un usuario creado automáticamente desde init.sql:
-
+```
 Email:    admin@test.com
 Password: admin123
+```
