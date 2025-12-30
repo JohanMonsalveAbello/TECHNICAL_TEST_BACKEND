@@ -36,8 +36,8 @@ docker-compose.yml
 init.sql
 requirements.txt
 README.md
-
-
+```bash
+---
 ⚙️ Requisitos previos
 
 Antes de empezar, asegúrate de tener instalado:
