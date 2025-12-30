@@ -19,7 +19,7 @@ Incluye autenticación con **JWT**, manejo seguro de contraseñas y configuraci�
 
 ## 📁 Estructura del proyecto
 
-```bash
+```
 app/
 ├── api/
 │   └── auth.py
